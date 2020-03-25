@@ -1,0 +1,137 @@
+body{
+    transition: .2s;
+
+}
+
+.product-list {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px
+}
+
+.product-total {
+    margin-bottom: 20px;
+    color: #da552f
+}
+
+.product-list article {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px
+}
+
+.product-list article p {
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px
+}
+
+.product-list article a {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #da552f;
+    background: none;
+    margin-top: 10px;
+    color: #da552f;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s
+}
+
+.add-product {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    transform: translateX(270px)
+}
+
+.add-product a {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #da552f;
+    background: none;
+    margin-top: 10px;
+    color: #da552f;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s;
+    padding: 20px
+}
+
+.add-product a:hover{
+    background: #da552f;
+    color: white
+}
+
+.add-icon{
+    margin-left:5px;
+
+}
+
+.product-list article a:hover {
+    background: #da552f;
+    color: white
+}
+
+.product-list .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px
+}
+
+.product-list .pages-number {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: rgb(67, 67, 218);
+}
+
+.product-list .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #da552f;
+    color: white;
+    font-size: 16px;
+    font-weight: bold
+}
+
+.product-list .actions button:hover {
+    opacity: 0.7;
+    cursor: pointer
+}
+
+.product-list .actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.product-list .actions button[disabled]:hover {
+    opacity: 0.5;
+}
+
+.arrow-icon{
+    margin-left: 10px
+}
+
+.delete-icon{
+    color: red; 
+    float: right;
+    cursor: pointer
+}
+
+.edit-icon{
+    color: green;
+    float: right;
+    margin-right: 10px;
+    cursor: pointer
+}
